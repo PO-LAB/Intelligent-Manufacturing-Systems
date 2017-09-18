@@ -198,4 +198,4 @@ Noticed that implement the above code still needs to add something (e.g., consid
 <br>
 <br>
 
-Sample code is[Here](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/README.md).
+Sample code is [HERE](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/README.md).
