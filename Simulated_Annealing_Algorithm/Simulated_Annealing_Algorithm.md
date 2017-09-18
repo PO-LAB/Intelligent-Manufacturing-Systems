@@ -3,7 +3,7 @@
 <br>
 *2017/09/18*
 
-[【回到首頁】](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/README.md)
+[【Homepage】](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/README.md)
 
 ## Simulated Annealing ##
 Simulated annealing is a metaheuristic using probabilistic technique of a given function to approximate global optimization. It calculated the probability to determine whether jump out of local optimum or not. As iterations go on, the temperature decreases by cooling rate, and we become less possible to accept the new poor solution. This algorithm is often used in the problem with discrete search space (e.g., TSP). Below shows the flowchart of simulated annealling algorithm.
