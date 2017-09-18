@@ -3,7 +3,7 @@
 <br>
 *2017/09/18*
 
-[【回到首頁】](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/README.md)
+[【Homepage】](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/README.md)
 
 ## Tabu Search ##
 Tabu Search is a meta-heuristic that guides the search procedure to explore the solution space beyond local optimal. In Tabu Search, the moving is based on neighborhood search mechanism, and Tabu list is used to avoid performing a move returning to a recently visited region and trapping into local optimal. The flowchart of Tabu Search algorithm procedure is shown below.
