@@ -197,4 +197,5 @@ So far, the Tabu algorithm is introduced.
 Noticed that implement the above code still needs to add something (E.g., considering iterations) and make it complete.
 <br>
 <br>
-Sample code is [here](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/Tabu_Algorithm/Tabu_Algorithm.m).
+
+[Sample code is here.](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/README.md)
