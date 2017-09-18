@@ -194,7 +194,7 @@ fprintf('Number of Tardy : %d\n',num_tardy);
 <br>
 So far, the Tabu algorithm is introduced. 
 <br>
-Noticed that implement the above code still needs to add something (E.g., considering iterations) and make it complete.
+Noticed that implement the above code still needs to add something (e.g., considering iterations) and make it complete.
 <br>
 <br>
 
