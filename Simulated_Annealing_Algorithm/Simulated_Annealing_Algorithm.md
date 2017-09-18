@@ -140,4 +140,4 @@ Noticed that implement the above code still needs to add something (E.g., consid
 <br>
 <br>
 
-[Sample code is here.](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/Simulated_Annealing_Algorithm/Simulated_Annealing_Algorithm.m)
+Sample code is [HERE](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/Simulated_Annealing_Algorithm/Simulated_Annealing_Algorithm.m).
