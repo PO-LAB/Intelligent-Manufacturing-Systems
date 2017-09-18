@@ -3,7 +3,7 @@
 <br>
 *2017/09/18*
 
-[【回到首頁】](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/README.md)
+[【Homepage】](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/README.md)
 
 ## Genetic Algorithm ##
 Genetic algorithm is a metaheuristic inspired by the process of natural evolution. The main operations include crossover, mutation, evaluation and selection. Of course, chromosomes encoding is also important. Genetic algorithms are commonly used to generate high-quality solutions. Below is the flowchart of genetic algorithm.
