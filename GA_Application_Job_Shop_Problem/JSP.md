@@ -1,7 +1,7 @@
 # IMS: Job Shop Scheduling Problem #
 *POLab*
 <br>
-*2017/09/2X*
+*2017/10/01*
 
 [【Homepage】](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/README.md)
 
@@ -18,7 +18,7 @@ In this article, we will introduce how to implement the genetic algorithm on the
 Below is the simple example of JSP. There are four jobs (J1-J4) and four machines (M1-M4). There exist a certain fixed route (sequence of machines) which may not be the same for each job, as Figure 1 shows. Then, we can reorganize the routes and get the Table 1 which shows the machines sequence. And we may also know the processing time dataset, as shown in the Table 2. At last, we can follow the rules of JSP and find out feasible solutions. In Figure 2, the Gantt Chart is used to show our result.
 
 <div align=center>
-<img src="https://github.com/ChinYiTseng/IMS/blob/master/JSP_GA/JSP_simplecase.png" alt="GitHub" width="614" height="356"/>
+<img src="https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/GA_Application_Job_Shop_Problem/JSP_simplecase.png" alt="GitHub" width="614" height="356"/>
 </div>
 <br/>
 
@@ -67,13 +67,13 @@ Machine |  O1  |  O2  |  O3  |  O4  |  O5  |  O6  |  O7  |  O8  |  O9  |  O10 |
 For solving the JSP, we use operation-based representation to encode a schedule. The schedule is represented as a sequence of operations and each gene stand for one operation. For a *n*-job and *m*-machine problem,a chromosome contains *n*×*m* genes. Each job appears in the chromosome exactly *m* times. A simple explaination is as follow:
 
 <div align=center>
-<img src="https://github.com/ChinYiTseng/IMS/blob/master/JSP_GA/JSP_endode_decode.png" alt="GitHub", width="626" height="341"/>
+<img src="https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/GA_Application_Job_Shop_Problem/JSP_endode_decode.png" alt="GitHub", width="626" height="341"/>
 </div>
 <br/>
 
 ### Problem Definition and Parameters Setting ###
 Input the information according to problem definition. <br/>
-Here, we will read Microsoft Excel spreadsheet file ([download](https://github.com/ChinYiTseng/IMS/raw/master/JSP_GA/JSP_dataset.xlsx)) instead of directly giving a value in the code.
+Here, we will read Microsoft Excel spreadsheet file ([download](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/raw/master/GA_Application_Job_Shop_Problem/JSP_dataset.xlsx)) instead of directly giving a value in the code.
 ```matlab
 % xlsread(filename,sheet,xlRange): use Excel range syntax in "xlRange".
 j_num = xlsread('JSP_dataset.xlsx','Parameters','B2'); % Job Counts
@@ -453,4 +453,4 @@ So far, the JSP using genetic algorithm is introduced.
 Noticed that implement the above code still needs to add something (E.g., considering iterations) and make it complete. 
 <br><br>
 
-Sample code is [HERE](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/Genetic_Algorithm/Genetic_Algorithm.m).
+Sample code is [HERE](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/GA_Application_Job_Shop_Problem/JSP.m).
