@@ -6,7 +6,7 @@
 [【Homepage】](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/README.md)
 
 ## Genetic Algorithm ##
-Genetic algorithm is a metaheuristic inspired by the process of natural evolution. The main operations include crossover, mutation, evaluation and selection. Of course, chromosomes encoding is also important. Genetic algorithms are commonly used to generate high-quality solutions. Below is the flowchart of genetic algorithm.
+Genetic algorithm is a metaheuristic inspired by the process of natural evolution. The main operations include crossover, mutation, evaluation and selection. Of course, chromosomes encoding is also important. Genetic algorithms are commonly used to generate high-quality solutions. Below is the simple flowchart of genetic algorithm.
 
 
 <div align=center>
@@ -23,9 +23,9 @@ This is an unconstrained optimization problem, mumerical example is given as fol
 <img src="https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/Genetic_Algorithm/GA_Obj.png" alt="GitHub" width="425" height="69"/>
 </div>
 
-Then, we use this case to show the step by step guide to coding.
+Then, we use this case to show the step by step guide for coding.
 <br>
-Notice that algorithm design still may be a little different.
+Notice that the algorithm design may be a little different.
 
 ### Encoding and Decoding ###
 For solving this numerical problem, chromosomes are encoded using binary string.
@@ -47,7 +47,7 @@ a2 = 4.1;  % Constraint parameters.
 b2 = 5.8;  % Constraint parameters.
 ```
 
-Let user decide the populationsize, crossover rate, mutation rate and iteration times.
+Let user decide the population size, crossover rate, mutation rate and iteration times.
 ```matlab
 population_size = input('Please input the size of population: ');  % Ask user to input the population size.
 if isempty (population_size)  % Set the default value (it works if user doesn't input anything to population_size).
@@ -103,7 +103,7 @@ S = randperm(population_size);  % Decide pairs of parent chromosomes.
 
 for m = 1:(population_size/2)
     crossover_prob = rand();  % Generate the random probability.
-    if (crossover_rate >= crossover_prob)  % Chromosomes do crossover only if crossover rate is larger than random probability.
+    if (crossover_rate >= crossover_prob)  % Crossover is happened only if crossover rate is larger than random probability.
     	parent_1 = population_list(S(-1+2*m),1:bits);  % Parent chromosome 1
 	parent_2 = population_list(S(2*m),1:bits);  % Parent chromosome 2
 	
@@ -131,7 +131,7 @@ If the gene is 0, it would be flipped into 1; otherwise, the gene would flipped 
 ```matlab
 for m = 1:population_size
     mutation_prob = rand();  % Generate the random probability.
-    if (mutation_rate >= mutation_prob  % Chromosomes do mutation only if mutation rate is larger than random probability.
+    if (mutation_rate >= mutation_prob  % Chromosomes mutate only if mutation rate is larger than random probability.
     	m_rand = randperm(bits,1);  % Randomly choose one mutation point.
 	
         if (population_list(m,m_rand) == 0)  % Mutation: 0→1 or 1→0
@@ -145,7 +145,7 @@ end
 
 ### Evaluation ###
 After we generate the offsprings, fitness values are calculated.
-Check the results, and record it if the result in this iteration is better than previous iterations.
+Check the result, and record it if the result in this iteration is better than previous iterations.
 ```matlab
 fitness = zeros(population_size,3);  % Record x1, x2, and fitness value (objective value). 
 
@@ -182,7 +182,7 @@ for m = 1:population_size
 end
 ```
 
-Calculate selection probability for each chromosome.
+Calculate the selection probability for each chromosome.
 ```matlab
 pk = zeros(population_size,1);  % Record selection probability of offspring population.
 
@@ -191,7 +191,7 @@ for m = 1:population_size
 end
 ```
 
-Calculate cumulative probability for each chromosome.
+Calculate the cumulative probability for each chromosome.
 ```matlab
 qk = zeros(population_size,1); % Record cumulative probability of offspring population.
 
