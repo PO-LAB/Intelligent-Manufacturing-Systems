@@ -42,9 +42,9 @@ for Iteration = 1:Num_Iteration
     for m = 1:(population_size/2)
         crossover_prob = rand();
         if (crossover_rate >= crossover_prob)
-            parent_1 = population_list(S(-1+2*m),1:bits); % ¿Ë¥N
+            parent_1 = population_list(S(-1+2*m),1:bits); % è¦ªä»£
             parent_2 = population_list(S(2*m),1:bits);
-            child_1 = zeros(1,bits); % ¤l¥N
+            child_1 = zeros(1,bits); % å­ä»£
             child_2 = zeros(1,bits);
             cutposition = randperm(bits,1);
             child_1(1:cutposition) = parent_1(1:cutposition);
@@ -56,11 +56,11 @@ for Iteration = 1:Num_Iteration
         end
     end
     
-    % mutation
+    % Mutation
     for m = 1:population_size
         mutation_prob = rand();
         if (mutation_rate >= mutation_prob)
-            m_rand = randperm(bits,1); % ¬D¿ï°ò¦]­nÅÜ°Êªº¦ì¸m
+            m_rand = randperm(bits,1); 
             if (population_list(m,m_rand) == 0)
                 population_list(m,m_rand) = 1;
             else
