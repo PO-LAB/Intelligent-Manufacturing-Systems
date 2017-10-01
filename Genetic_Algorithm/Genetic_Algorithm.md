@@ -214,20 +214,20 @@ Generate a random number from the range [0,1].
 ```matlab
 selection_rand = zeros(1,population_size);  % Record the random number.
 
-for i = 1:population_size
-    selection_rand(i) = rand();
+for m = 1:population_size
+    selection_rand(m) = rand();
 end
 ```
 
 Use roulette wheel and select the chromosome to be included in new population.
 ```matlab
-for i = 1:population_size
-    if (selection_rand(i) <= qk(1))
-	population_list(i, 1:bits) = last_population_list(i, 1:bits);
+for m = 1:population_size
+    if (selection_rand(m) <= qk(1))
+	population_list(m, 1:bits) = last_population_list(m, 1:bits);
     else
     	for j = 1:(population_size-1)
-	    if (selection_rand(i) > qk(j) && selection_rand(i) <= qk(j+1))
-		population_list(i, 1:bits) = last_population_list((j+1), 1:bits);
+	    if (selection_rand(m) > qk(j) && selection_rand(m) <= qk(j+1))
+		population_list(m, 1:bits) = last_population_list((j+1), 1:bits);
  		break;
   	    end
 	end
