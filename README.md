@@ -19,3 +19,4 @@ Instructor is [Chia-Yen Lee, Ph.D.](http://polab.imis.ncku.edu.tw/Bio.html).
 |  2017-09-18       | [Simulated Annealing Algorithm](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/Simulated_Annealing_Algorithm/Simulated_Annealing_Algorithm.md)   |
 |  2017-09-18       | [Genetic Algorithm](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/Genetic_Algorithm/Genetic_Algorithm.md)   |
 |  2017-10-01       | [Genetic Algorithm: Job Shop Scheduling Problem](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/GA_Application_Job_Shop_Problem/JSP.md)   |
+|  2017-11-08       | [Taguchi Methood for Parameter Design in Genetic Algorithm](https://www.youtube.com/watch?v=s56X-qtxGNs)   |
