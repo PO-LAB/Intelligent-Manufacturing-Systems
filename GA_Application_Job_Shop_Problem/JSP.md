@@ -1,4 +1,4 @@
-# IMS: Job Shop Scheduling Problem #
+# Genetic Alforithm for Job Shop Scheduling Problem #
 *POLab*
 <br>
 *2017/10/01*
