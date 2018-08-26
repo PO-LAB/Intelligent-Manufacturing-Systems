@@ -24,6 +24,5 @@ Instructor is [Chia-Yen Lee, Ph.D.](http://polab.imis.ncku.edu.tw/Bio.html).
 |  2017-11-09       | [Taguchi Method for Parameter Design in Genetic Algorithm 2 (by 李碩軒)](https://www.youtube.com/watch?v=4mBQ7Z81lN0)   |
 |  2018-08-26       | [GA for JSP and NSGAII](https://github.com/wurmen/Genetic-Algorithm-for-Job-Shop-Scheduling-and-NSGA-II)   | 
 |  2018-08-26       | [Reinforcement Learning for Flow-shop Scheduling](https://github.com/wurmen/Flow-Shop-Scheduling-Based-On-Reinforcement-Learning-Algorithm)   |
-|  2018-08-26       | [Cast Study: Semiconductor Manufacturing](http://rpubs.com/jeff_datascience/Semiconductor_Manufacturing
-)   |
+|  2018-08-26       | [Cast Study: Semiconductor Manufacturing](http://rpubs.com/jeff_datascience/Semiconductor_Manufacturing)   |
 |  2018-08-26       | [Case Study:Faulty Steel Plates Classification](http://rpubs.com/james_datacatcher/svm)   |
