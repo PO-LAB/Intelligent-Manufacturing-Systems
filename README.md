@@ -26,3 +26,4 @@ Instructor is [Chia-Yen Lee, Ph.D.](http://polab.imis.ncku.edu.tw/Bio.html).
 |  2018-08-26       | [Reinforcement Learning for Flow-shop Scheduling](https://github.com/wurmen/Flow-Shop-Scheduling-Based-On-Reinforcement-Learning-Algorithm)   |
 |  2018-08-26       | [Cast Study: 半導體製造資料分析 Semiconductor Manufacturing](http://rpubs.com/jeff_datascience/Semiconductor_Manufacturing)   |
 |  2018-08-26       | [Case Study:缺陷鋼板分類資料分析 Faulty Steel Plates Classification](http://rpubs.com/james_datacatcher/svm)   |
+|2018-12-1|[Solving Mathematical Model for job shop scheduling problem in Python with PuLp](https://github.com/KevinLu43/JSP-by-using-Mathematical-Programming-in-Python)|
