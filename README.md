@@ -15,7 +15,7 @@ Instructor is [Chia-Yen Lee, Ph.D.](http://polab.imis.ncku.edu.tw/Bio.html).
 ## **￡Metaheuristic Algorithm Programming Tutorials (MATLAB)**  ##
 |  Previous Update  |          Article          |
 |  :-------------:  | :--------------------------------------------------------------------------------------------------------: |
-|  2017-09-18       | [製造數據科學 Data Science in Manufacturing](http://polab.imis.ncku.edu.tw/Talk/20180505_Data_Science_in_Manufacturing.pdf)  
+|  2017-09-18       | [製造數據科學 Data Science in Manufacturing](http://polab.im.ntu.edu.tw/Talk/Data_Science_in_Manufacturing.pdf)  
 |  2017-09-18       | [Tabu Algorithm](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/Tabu_Algorithm/Tabu_Algorithm.md)   | 
 |  2017-09-18       | [Simulated Annealing Algorithm](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/Simulated_Annealing_Algorithm/Simulated_Annealing_Algorithm.md)   |
 |  2017-09-18       | [Genetic Algorithm](https://github.com/PO-LAB/Intelligent-Manufacturing-Systems/blob/master/Genetic_Algorithm/Genetic_Algorithm.md)   |
